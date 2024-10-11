@@ -49,9 +49,22 @@
 }
 
 .rodapie__container{
-	display: flex;
-	flex-flow: column wrap; 
+   display: flex;
+   flex-flow: column wrap; 
 }
+
+.videos__item {
+   height: 303px;
+   width: 280px;
+   flex-grow: 1;
+}
+
+.videos__container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+
+ } 
 
 @media (min-width: 834px) {
 
@@ -76,7 +89,10 @@
     .rodapie__container{
         justify-content: space-between;
     }
-} 
+   
+}
+
+
 
 @media (min-width:1440px) {
 
