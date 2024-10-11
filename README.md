@@ -1,1 +1,2 @@
-# aluraplay-projecto-final-proyecto-base
+# aluraplay-projecto 
+Responsive design page
